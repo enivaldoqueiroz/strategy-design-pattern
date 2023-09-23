@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "StrategyExemplo/1.0.0": {
+        "runtime": {
+          "StrategyExemplo.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StrategyExemplo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

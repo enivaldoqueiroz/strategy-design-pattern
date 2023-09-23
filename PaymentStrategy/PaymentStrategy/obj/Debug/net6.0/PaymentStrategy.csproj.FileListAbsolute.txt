@@ -1,0 +1,16 @@
+D:\C-CHARP DOTNET\PaymentStrategy\PaymentStrategy\obj\Debug\net6.0\PaymentStrategy.GeneratedMSBuildEditorConfig.editorconfig
+D:\C-CHARP DOTNET\PaymentStrategy\PaymentStrategy\obj\Debug\net6.0\PaymentStrategy.AssemblyInfoInputs.cache
+D:\C-CHARP DOTNET\PaymentStrategy\PaymentStrategy\obj\Debug\net6.0\PaymentStrategy.AssemblyInfo.cs
+D:\C-CHARP DOTNET\PaymentStrategy\PaymentStrategy\obj\Debug\net6.0\PaymentStrategy.csproj.CoreCompileInputs.cache
+D:\C-CHARP DOTNET\PaymentStrategy\PaymentStrategy\bin\Debug\net6.0\PaymentStrategy.exe
+D:\C-CHARP DOTNET\PaymentStrategy\PaymentStrategy\bin\Debug\net6.0\PaymentStrategy.deps.json
+D:\C-CHARP DOTNET\PaymentStrategy\PaymentStrategy\bin\Debug\net6.0\PaymentStrategy.runtimeconfig.json
+D:\C-CHARP DOTNET\PaymentStrategy\PaymentStrategy\bin\Debug\net6.0\PaymentStrategy.dll
+D:\C-CHARP DOTNET\PaymentStrategy\PaymentStrategy\bin\Debug\net6.0\PaymentStrategy.pdb
+D:\C-CHARP DOTNET\PaymentStrategy\PaymentStrategy\obj\Debug\net6.0\PaymentStrategy.dll
+D:\C-CHARP DOTNET\PaymentStrategy\PaymentStrategy\obj\Debug\net6.0\refint\PaymentStrategy.dll
+D:\C-CHARP DOTNET\PaymentStrategy\PaymentStrategy\obj\Debug\net6.0\PaymentStrategy.pdb
+D:\C-CHARP DOTNET\PaymentStrategy\PaymentStrategy\obj\Debug\net6.0\PaymentStrategy.genruntimeconfig.cache
+D:\C-CHARP DOTNET\PaymentStrategy\PaymentStrategy\obj\Debug\net6.0\ref\PaymentStrategy.dll
+D:\C-CHARP DOTNET\PaymentStrategy\PaymentStrategy\obj\Debug\net6.0\PaymentStrategy.Resources.ReturnMsg.resources
+D:\C-CHARP DOTNET\PaymentStrategy\PaymentStrategy\obj\Debug\net6.0\PaymentStrategy.csproj.GenerateResource.cache
