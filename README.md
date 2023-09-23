@@ -79,13 +79,26 @@ public void ProcessPayment(PaymentBrand paymentBrand, PaymentType paymentType)
 }
 ```
 
-**Passo 4: Uso do PaymentProcessor**
+**Passo 4: Uso do PaymentProcessorContext**
 
 Agora você pode criar uma instância da classe `PaymentProcessorContext` e usá-la para processar pagamentos. Basta chamar o método `ProcessPayment` com as combinações apropriadas de `paymentBrand` e `paymentType`:
 
 ```csharp
-var paymentProcessorContext = new PaymentProcessorContext();
-paymentProcessor.ProcessPayment(PaymentBrand.Pix, PaymentType.PA); // Executa a estratégia PixPAStrategy
+using PaymentStrategy.Class;
+using PaymentStrategy.Enums;
+
+Console.WriteLine("Digite o PaymentBrand: ");
+Console.WriteLine("0 - PIX| ...");
+PaymentBrand paymentBrand = (PaymentBrand)Convert.ToInt16(Console.ReadLine());
+Console.WriteLine("Digite o PaymentType: ");
+Console.WriteLine("PA = 0 | DB = 1 | TR = 2");
+PaymentType paymentType = (PaymentType)Convert.ToInt16(Console.ReadLine());
+
+PaymentProcessorContext context = new PaymentProcessorContext();
+
+context.ProcessPayment(paymentBrand, paymentType);
+
+Console.Read();
 ```
 
 Isso permitirá que você processe pagamentos de forma flexível com base nas combinações de `paymentBrand` e `paymentType` sem a necessidade de repetir condicionais complexos. Cada combinação tem sua estratégia associada e pode ser facilmente estendida para novas combinações no futuro, mantendo seu código organizado e flexível.
