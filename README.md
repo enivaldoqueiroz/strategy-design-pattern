@@ -43,21 +43,27 @@ public class PixTRStrategy : IPaymentStrategy
 Em seguida, você cria um dicionário que mapeia as combinações de `paymentBrand` e `paymentType` para as estratégias correspondentes. Você pode fazer isso em um construtor de uma classe que será responsável por processar os pagamentos, como a classe `PaymentProcessor` no exemplo abaixo:
 
 ```csharp
-public class PaymentProcessor
+public class PaymentProcessorContext
 {
     private readonly Dictionary<(PaymentBrand, PaymentType), IPaymentStrategy> strategies;
 
-    public PaymentProcessor()
+    public PaymentProcessorContext()
     {
         strategies = new Dictionary<(PaymentBrand, PaymentType), IPaymentStrategy>
         {
-            {(PaymentBrand.Pix, PaymentType.PA), new PixPAStrategy()},
-            {(PaymentBrand.Pix, PaymentType.DB), new PixDBStrategy()},
-            {(PaymentBrand.Pix, PaymentType.TR), new PixTRStrategy()},
+            {(PaymentBrand.PIX, PaymentType.PA), new PixPAStrategy()},
+            {(PaymentBrand.PIX, PaymentType.DB), new PixDBStrategy()},
+            {(PaymentBrand.PIX, PaymentType.TR), new PixTRStrategy()},
         };
     }
 
-    // ...
+    public void ProcessPayment(PaymentBrand paymentBrand, PaymentType paymentType)
+    {
+        if (strategies.TryGetValue((paymentBrand, paymentType), out var strategy))
+            strategy.Execute();
+        else
+            Console.WriteLine(ReturnMsg.INF0004);
+    }
 }
 ```
 
