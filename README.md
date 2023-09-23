@@ -69,13 +69,9 @@ Agora, você pode usar o dicionário de estratégias para processar pagamentos c
 public void ProcessPayment(PaymentBrand paymentBrand, PaymentType paymentType)
 {
     if (strategies.TryGetValue((paymentBrand, paymentType), out var strategy))
-    {
         strategy.Execute();
-    }
     else
-    {
-        // Lógica para lidar com combinações não suportadas
-    }
+        Console.WriteLine(ReturnMsg.INF0004);
 }
 ```
 
