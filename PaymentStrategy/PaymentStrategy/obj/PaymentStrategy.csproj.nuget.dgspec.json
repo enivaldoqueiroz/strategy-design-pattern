@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C-CHARP DOTNET\\PaymentStrategy\\PaymentStrategy\\PaymentStrategy.csproj": {}
+    "D:\\C-CHARP DOTNET\\strategy-design-pattern\\PaymentStrategy\\PaymentStrategy\\PaymentStrategy.csproj": {}
   },
   "projects": {
-    "D:\\C-CHARP DOTNET\\PaymentStrategy\\PaymentStrategy\\PaymentStrategy.csproj": {
+    "D:\\C-CHARP DOTNET\\strategy-design-pattern\\PaymentStrategy\\PaymentStrategy\\PaymentStrategy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C-CHARP DOTNET\\PaymentStrategy\\PaymentStrategy\\PaymentStrategy.csproj",
+        "projectUniqueName": "D:\\C-CHARP DOTNET\\strategy-design-pattern\\PaymentStrategy\\PaymentStrategy\\PaymentStrategy.csproj",
         "projectName": "PaymentStrategy",
-        "projectPath": "D:\\C-CHARP DOTNET\\PaymentStrategy\\PaymentStrategy\\PaymentStrategy.csproj",
+        "projectPath": "D:\\C-CHARP DOTNET\\strategy-design-pattern\\PaymentStrategy\\PaymentStrategy\\PaymentStrategy.csproj",
         "packagesPath": "C:\\Users\\eniva\\.nuget\\packages\\",
-        "outputPath": "D:\\C-CHARP DOTNET\\PaymentStrategy\\PaymentStrategy\\obj\\",
+        "outputPath": "D:\\C-CHARP DOTNET\\strategy-design-pattern\\PaymentStrategy\\PaymentStrategy\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

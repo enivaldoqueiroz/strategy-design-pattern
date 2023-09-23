@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EdJAKzR3D7753PEwr/eqAlSJe4Nj7qivEbvVOioLxoAJXggJmOqc3nsZvR9x5XQLo2njR4bkGg7eeh0vJFPOYg==",
+  "dgSpecHash": "LzFOTP91mx64A/jaAUXmkmB6HLhYHLE/c6nDpUfbqMDlilf+Ve8dXdBcSwkedSvZ8TdAjek+nCYu80xqYZV3wQ==",
   "success": true,
-  "projectFilePath": "D:\\C-CHARP DOTNET\\PaymentStrategy\\PaymentStrategy\\PaymentStrategy.csproj",
+  "projectFilePath": "D:\\C-CHARP DOTNET\\strategy-design-pattern\\PaymentStrategy\\PaymentStrategy\\PaymentStrategy.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
