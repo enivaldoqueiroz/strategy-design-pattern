@@ -1,4 +1,4 @@
-# strategy-design-pattern
+# Strategy Design Pattern
 Padrão de projeto comportamental Strategy 
 
 Descrição detalhada de cada etapa da criação e uso do dicionário de estratégias para mapear combinações de `paymentBrand` e `paymentType` em C#:
