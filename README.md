@@ -12,7 +12,8 @@ public interface IPaymentStrategy
 {
     void Execute();
 }
-
+```
+```csharp
 public class PixPAStrategy : IPaymentStrategy
 {
     public void Execute()
@@ -20,7 +21,8 @@ public class PixPAStrategy : IPaymentStrategy
         // Lógica específica para PaymentBrand.Pix e PaymentType.PA
     }
 }
-
+```
+```csharp
 public class PixDBStrategy : IPaymentStrategy
 {
     public void Execute()
@@ -28,7 +30,8 @@ public class PixDBStrategy : IPaymentStrategy
         // Lógica específica para PaymentBrand.Pix e PaymentType.DB
     }
 }
-
+```
+```csharp
 public class PixTRStrategy : IPaymentStrategy
 {
     public void Execute()
